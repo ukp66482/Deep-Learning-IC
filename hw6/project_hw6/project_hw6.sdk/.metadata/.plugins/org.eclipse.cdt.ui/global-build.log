@@ -1,0 +1,2241 @@
+14:26:46 **** Build of project ImageInversion_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+C:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project ImageInversion ****
+
+Nothing to build for project ImageInversion
+14:27:36 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../ImageInversion_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\kartg\Desktop\Github\Deep-Learning-IC\hw6\project_hw6\project_hw6.sdk\ImageInversion_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ImageInversion.elf] Error 1
+14:29:37 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:7:2: error: unknown type name 'u8'
+  u8 imageData[];
+  ^~
+../src/ImgaeInversion.c:7:5: error: array size missing in 'imageData'
+  u8 imageData[];
+     ^~~~~~~~~
+../src/ImgaeInversion.c:7:5: warning: unused variable 'imageData' [-Wunused-variable]
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:30:04 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:7:2: error: unknown type name 'u8'
+  u8 *imageData;
+  ^~
+../src/ImgaeInversion.c:7:6: warning: unused variable 'imageData' [-Wunused-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:35:54 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:7:2: error: unknown type name 'u8'
+  u8 *imageData;
+  ^~
+../src/ImgaeInversion.c:7:6: warning: unused variable 'imageData' [-Wunused-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:35:56 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:9:18: warning: dereferencing 'void *' pointer
+  imageData = (u8)* malloc(sizeof(u8) * IMAGESIZE + HEADERSIZE);
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:9:14: error: invalid use of void expression
+  imageData = (u8)* malloc(sizeof(u8) * IMAGESIZE + HEADERSIZE);
+              ^
+../src/ImgaeInversion.c:8:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:36:57 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:8:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22404	   2184	1063016	1087604	 109874	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+14:40:01 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:11:21: error: expected expression before ')' token
+  for(int i = 0; i < )
+                     ^
+../src/ImgaeInversion.c:12:1: error: expected expression before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:9:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:40:19 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:11:29: error: expected ';' before ')' token
+  for(int i = 0; i < FILESIZE)
+                             ^
+../src/ImgaeInversion.c:12:1: error: expected expression before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:9:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:40:50 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:12:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   scanf("%c");
+   ^~~~~
+../src/ImgaeInversion.c:12:3: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/ImgaeInversion.c:12:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/ImgaeInversion.c:12:11: warning: format '%c' expects a matching 'char *' argument [-Wformat=]
+   scanf("%c");
+          ~^
+../src/ImgaeInversion.c:9:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 100100	   2580	1063712	1166392	 11cc38	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+14:41:08 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:12:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   scanf("%c", &imageData[i]);
+   ^~~~~
+../src/ImgaeInversion.c:12:3: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/ImgaeInversion.c:12:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 100100	   2580	1063712	1166392	 11cc38	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+14:41:10 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:44:56 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:13:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   scanf("%c", &imageData[i]);
+   ^~~~~
+../src/ImgaeInversion.c:13:3: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/ImgaeInversion.c:13:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 100100	   2580	1063712	1166392	 11cc38	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+14:56:28 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:14:38: error: expected expression before 'u16'
+  myUartConfig = XUartPs_LookupConfig(u16 DeviceId);
+                                      ^~~
+../src/ImgaeInversion.c:13:18: warning: variable 'myUartConfig' set but not used [-Wunused-but-set-variable]
+  XUartPs_Config *myUartConfig;
+                  ^~~~~~~~~~~~
+../src/ImgaeInversion.c:10:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:56:37 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:14:39: error: 'Devid' undeclared (first use in this function)
+  myUartConfig = XUartPs_LookupConfig( Devid);
+                                       ^~~~~
+../src/ImgaeInversion.c:14:39: note: each undeclared identifier is reported only once for each function it appears in
+../src/ImgaeInversion.c:13:18: warning: variable 'myUartConfig' set but not used [-Wunused-but-set-variable]
+  XUartPs_Config *myUartConfig;
+                  ^~~~~~~~~~~~
+../src/ImgaeInversion.c:10:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:56:38 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:14:17: error: too few arguments to function 'XUartPs_LookupConfig'
+  myUartConfig = XUartPs_LookupConfig();
+                 ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:456:17: note: declared here
+ XUartPs_Config *XUartPs_LookupConfig(u16 DeviceId);
+                 ^~~~~~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:13:18: warning: variable 'myUartConfig' set but not used [-Wunused-but-set-variable]
+  XUartPs_Config *myUartConfig;
+                  ^~~~~~~~~~~~
+../src/ImgaeInversion.c:10:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:57:12 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c:4:10: fatal error: xparameter.h: No such file or directory
+ #include "xparameter.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:57:37 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c:4:10: fatal error: xparameter.h: No such file or directory
+ #include "xparameter.h" //device ID
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:57:39 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c:4:10: fatal error: xparameter.h: No such file or directory
+ #include "xparameter.h" //device ID
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:57:56 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:15:17: error: too few arguments to function 'XUartPs_LookupConfig'
+  myUartConfig = XUartPs_LookupConfig();
+                 ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:456:17: note: declared here
+ XUartPs_Config *XUartPs_LookupConfig(u16 DeviceId);
+                 ^~~~~~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:14:18: warning: variable 'myUartConfig' set but not used [-Wunused-but-set-variable]
+  XUartPs_Config *myUartConfig;
+                  ^~~~~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+14:59:19 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:14:18: warning: variable 'myUartConfig' set but not used [-Wunused-but-set-variable]
+  XUartPs_Config *myUartConfig;
+                  ^~~~~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22444	   2200	1063016	1087660	 1098ac	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:01:00 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:17:32: error: expected expression before 'XUartPs_Config'
+  XUartPs_CfgInitialize(&myUart,XUartPs_Config * Config, u32 EffectiveAddr);
+                                ^~~~~~~~~~~~~~
+../src/ImgaeInversion.c:17:2: error: too few arguments to function 'XUartPs_CfgInitialize'
+  XUartPs_CfgInitialize(&myUart,XUartPs_Config * Config, u32 EffectiveAddr);
+  ^~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:459:5: note: declared here
+ s32 XUartPs_CfgInitialize(XUartPs *InstancePtr,
+     ^~~~~~~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:14:18: warning: variable 'myUartConfig' set but not used [-Wunused-but-set-variable]
+  XUartPs_Config *myUartConfig;
+                  ^~~~~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:01:12 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:17:47: error: expected expression before 'u32'
+  XUartPs_CfgInitialize(&myUart, myUartConfig, u32 EffectiveAddr);
+                                               ^~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:02:44 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24608	   2200	1063032	1089840	 10a130	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:04:19 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:13:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'imageData'
+  imageData = malloc(sizeof(u8) * IMAGESIZE + HEADERSIZE);
+  ^~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:04:22 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:12:6: warning: unused variable 'uart_status' [-Wunused-variable]
+  u32 uart_status;
+      ^~~~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24608	   2200	1063032	1089840	 10a130	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:04:26 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:12:6: warning: variable 'uart_status' set but not used [-Wunused-but-set-variable]
+  u32 uart_status;
+      ^~~~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24616	   2200	1063032	1089848	 10a138	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:04:42 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:19:5: error: 'uart_statu' undeclared (first use in this function); did you mean 'uart_status'?
+  if(uart_statu)
+     ^~~~~~~~~~
+     uart_status
+../src/ImgaeInversion.c:19:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/ImgaeInversion.c:20:1: error: expected expression before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'uart_status' set but not used [-Wunused-but-set-variable]
+  u32 uart_status;
+      ^~~~~~~~~~~
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:04:43 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:1: error: expected expression before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:05:59 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:19:19: error: expected expression before ')' token
+  if(uart_status !=)
+                   ^
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:06:56 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:1: error: expected expression before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:07:22 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART")
+   ^~~~~~
+../src/ImgaeInversion.c:20:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:20:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:21:2: error: expected ';' before '}' token
+  }
+  ^
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:07:46 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:20:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:20:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71984	   2596	1063728	1138308	 115e84	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:07:51 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:20:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:20:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71984	   2596	1063728	1138308	 115e84	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:09:07 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:20:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:20:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c: In function 'XUartPs_SetBaudRate':
+../src/ImgaeInversion.c:23:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:23:1: error: expected '{' at end of input
+../src/ImgaeInversion.c:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:23:1: error: expected declaration or statement at end of input
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+At top level:
+../src/ImgaeInversion.c:22:6: warning: 'XUartPs_SetBaudRate' defined but not used [-Wunused-function]
+  s32 XUartPs_SetBaudRate(XUartPs *InstancePtr, u32 BaudRate)
+      ^~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:09:33 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:20:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:20:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:20:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:22:26: error: expected declaration specifiers or '...' before '&' token
+  s32 XUartPs_SetBaudRate(&myUart, u32 BaudRate)
+                          ^
+../src/ImgaeInversion.c:23:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:11:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:09:55 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:23:26: error: expected declaration specifiers or '...' before '&' token
+  s32 XUartPs_SetBaudRate(&myUart, u32 BaudRate)
+                          ^
+../src/ImgaeInversion.c:24:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:10:03 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:23:26: error: expected declaration specifiers or '...' before '&' token
+  s32 XUartPs_SetBaudRate(&myUart, BAUDRATE)
+                          ^
+../src/ImgaeInversion.c:6:18: error: expected declaration specifiers or '...' before numeric constant
+ #define BAUDRATE 115200
+                  ^
+../src/ImgaeInversion.c:23:35: note: in expansion of macro 'BAUDRATE'
+  s32 XUartPs_SetBaudRate(&myUart, BAUDRATE)
+                                   ^~~~~~~~
+../src/ImgaeInversion.c:24:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:10:24 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:23:26: error: expected declaration specifiers or '...' before '&' token
+  s32 XUartPs_SetBaudRate(&myUart, BAUDRATE)
+                          ^
+../src/ImgaeInversion.c:6:18: error: expected declaration specifiers or '...' before numeric constant
+ #define BAUDRATE 115200
+                  ^
+../src/ImgaeInversion.c:23:35: note: in expansion of macro 'BAUDRATE'
+  s32 XUartPs_SetBaudRate(&myUart, BAUDRATE)
+                                   ^~~~~~~~
+../src/ImgaeInversion.c:24:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:10:31 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:24:1: error: expected ';' before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:10:33 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72048	   2596	1063728	1138372	 115ec4	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:10:47 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:25:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("UART Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:25:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72048	   2596	1063728	1138372	 115ec4	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:11:05 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:25:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baudrate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:25:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72080	   2596	1063728	1138404	 115ee4	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:11:08 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:25:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:25:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72080	   2596	1063728	1138404	 115ee4	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:12:02 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:29:15: error: expected ',' or ';' before ')' token
+  for(int i = 0)
+               ^
+../src/ImgaeInversion.c:32:1: error: expected expression at end of input
+ }
+ ^
+../src/ImgaeInversion.c:29:10: warning: unused variable 'i' [-Wunused-variable]
+  for(int i = 0)
+          ^
+../src/ImgaeInversion.c:29:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(int i = 0)
+  ^~~
+../src/ImgaeInversion.c:33:0: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+../src/ImgaeInversion.c:32:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:12:06 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:29:15: error: expected ',' or ';' before ')' token
+  for(int i = 0)
+               ^
+../src/ImgaeInversion.c:31:1: error: expected expression at end of input
+ }
+ ^
+../src/ImgaeInversion.c:29:10: warning: unused variable 'i' [-Wunused-variable]
+  for(int i = 0)
+          ^
+../src/ImgaeInversion.c:29:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(int i = 0)
+  ^~~
+../src/ImgaeInversion.c:32:0: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+../src/ImgaeInversion.c:31:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:12:07 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:29:15: error: expected ',' or ';' before ')' token
+  for(int i = 0)
+               ^
+../src/ImgaeInversion.c:31:1: error: expected expression at end of input
+ }
+ ^
+../src/ImgaeInversion.c:29:10: warning: unused variable 'i' [-Wunused-variable]
+  for(int i = 0)
+          ^
+../src/ImgaeInversion.c:29:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(int i = 0)
+  ^~~
+../src/ImgaeInversion.c:32:0: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+../src/ImgaeInversion.c:31:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:14:01 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:30:3: error: expected expression before 'u32'
+   u32 XUartPs_Recv(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes)
+   ^~~
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:14:12 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c: In function 'XUartPs_Recv':
+../src/ImgaeInversion.c:31:2: error: expected declaration specifiers before '}' token
+  }
+  ^
+../src/ImgaeInversion.c:32:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:32:1: error: expected '{' at end of input
+../src/ImgaeInversion.c:32:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:32:1: error: expected declaration or statement at end of input
+../src/ImgaeInversion.c:32:1: error: expected declaration or statement at end of input
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+At top level:
+../src/ImgaeInversion.c:30:7: warning: 'XUartPs_Recv' defined but not used [-Wunused-function]
+   u32 XUartPs_Recv(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes)
+       ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:14:23 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:30:20: error: expected declaration specifiers or '...' before '&' token
+   u32 XUartPs_Recv(&myUart, u8 *BufferPtr, u32 NumBytes)
+                    ^
+../src/ImgaeInversion.c:32:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:14:41 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:30:20: error: expected declaration specifiers or '...' before '&' token
+   u32 XUartPs_Recv(&myUart, imageData, u32 NumBytes)
+                    ^
+../src/ImgaeInversion.c:30:29: error: expected declaration specifiers or '...' before 'imageData'
+   u32 XUartPs_Recv(&myUart, imageData, u32 NumBytes)
+                             ^~~~~~~~~
+../src/ImgaeInversion.c:32:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:15:14 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:21:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:21:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:21:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:26:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:30:20: error: expected declaration specifiers or '...' before '&' token
+   u32 XUartPs_Recv(&myUart, imageData, FILESIZE)
+                    ^
+../src/ImgaeInversion.c:30:29: error: expected declaration specifiers or '...' before 'imageData'
+   u32 XUartPs_Recv(&myUart, imageData, FILESIZE)
+                             ^~~~~~~~~
+../src/ImgaeInversion.c:7:19: error: expected declaration specifiers or '...' before numeric constant
+ #define IMAGESIZE 512*512
+                   ^
+../src/ImgaeInversion.c:9:18: note: in expansion of macro 'IMAGESIZE'
+ #define FILESIZE IMAGESIZE + HEADERSIZE
+                  ^~~~~~~~~
+../src/ImgaeInversion.c:30:40: note: in expansion of macro 'FILESIZE'
+   u32 XUartPs_Recv(&myUart, imageData, FILESIZE)
+                                        ^~~~~~~~
+../src/ImgaeInversion.c:32:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:16:09 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:22:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:22:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:22:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:27:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:27:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:31:3: error: expected '(' before 'u32'
+   u32 XUartPs_Recv(&myUart, imageData, FILESIZE)
+   ^~~
+../src/ImgaeInversion.c:13:6: warning: unused variable 'recvBytes' [-Wunused-variable]
+  u32 recvBytes;
+      ^~~~~~~~~
+../src/ImgaeInversion.c:12:6: warning: variable 'imageData' set but not used [-Wunused-but-set-variable]
+  u8 *imageData;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:16:26 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:22:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:22:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:22:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:27:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:27:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:31:3: error: expected '(' before 'recvBytes'
+   recvBytes = XUartPs_Recv(&myUart, imageData, FILESIZE)
+   ^~~~~~~~~
+../src/ImgaeInversion.c:32:1: error: expected ';' before '}' token
+ }
+ ^
+../src/ImgaeInversion.c:13:6: warning: variable 'recvBytes' set but not used [-Wunused-but-set-variable]
+  u32 recvBytes;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:16:28 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:22:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:22:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:22:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:27:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:27:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:31:3: error: expected '(' before 'recvBytes'
+   recvBytes = XUartPs_Recv(&myUart, imageData, FILESIZE);
+   ^~~~~~~~~
+../src/ImgaeInversion.c:13:6: warning: variable 'recvBytes' set but not used [-Wunused-but-set-variable]
+  u32 recvBytes;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:16:46 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:22:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:22:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:22:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:27:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:27:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:31:3: error: expected '(' before 'recvBytes'
+   recvBytes = XUartPs_Recv(&myUart, imageData, FILESIZE);
+   ^~~~~~~~~
+../src/ImgaeInversion.c:13:6: warning: variable 'recvBytes' set but not used [-Wunused-but-set-variable]
+  u32 recvBytes = 0;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:17:11 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:23:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:23:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:23:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:28:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:28:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:32:3: error: expected '(' before 'recvBytes'
+   recvBytes = XUartPs_Recv(&myUart, imageData, FILESIZE);
+   ^~~~~~~~~
+../src/ImgaeInversion.c:14:6: warning: unused variable 'totalrecvByte' [-Wunused-variable]
+  u32 totalrecvByte = 0;
+      ^~~~~~~~~~~~~
+../src/ImgaeInversion.c:13:6: warning: variable 'recvBytes' set but not used [-Wunused-but-set-variable]
+  u32 recvBytes = 0;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:17:15 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:23:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:23:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:23:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:28:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:28:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:32:3: error: expected '(' before 'recvBytes'
+   recvBytes = XUartPs_Recv(&myUart, imageData, FILESIZE);
+   ^~~~~~~~~
+../src/ImgaeInversion.c:14:6: warning: unused variable 'totalRecvByte' [-Wunused-variable]
+  u32 totalRecvByte = 0;
+      ^~~~~~~~~~~~~
+../src/ImgaeInversion.c:13:6: warning: variable 'recvBytes' set but not used [-Wunused-but-set-variable]
+  u32 recvBytes = 0;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:17:42 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:23:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:23:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:23:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:28:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:28:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:13:6: warning: variable 'recvBytes' set but not used [-Wunused-but-set-variable]
+  u32 recvBytes = 0;
+      ^~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72144	   2596	1063728	1138468	 115f24	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:18:18 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:23:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:23:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:23:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:28:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:28:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72144	   2596	1063728	1138468	 115f24	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:19:06 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:23:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("UART Initialization FAIL!!");
+   ^~~~~~
+../src/ImgaeInversion.c:23:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/ImgaeInversion.c:23:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:28:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Baud rate Initialization FAIL!!");
+    ^~~~~~
+../src/ImgaeInversion.c:28:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/ImgaeInversion.c:32:37: warning: passing argument 2 of 'XUartPs_Recv' makes pointer from integer without a cast [-Wint-conversion]
+   recvBytes = XUartPs_Recv(&myUart, imageData[totalRecvBytes], FILESIZE);
+                                     ^~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 {aka unsigned char}'
+ u32 XUartPs_Recv(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72208	   2596	1063728	1138532	 115f64	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:21:07 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:32:37: warning: passing argument 2 of 'XUartPs_Recv' makes pointer from integer without a cast [-Wint-conversion]
+   recvBytes = XUartPs_Recv(&myUart, imageData[totalRecvBytes], FILESIZE);
+                                     ^~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 {aka unsigned char}'
+ u32 XUartPs_Recv(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25032	   2200	1063032	1090264	 10a2d8	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:21:19 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:32:37: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   recvBytes = XUartPs_Recv(&myUart, (u8*)imageData[totalRecvBytes], FILESIZE);
+                                     ^
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25032	   2200	1063032	1090264	 10a2d8	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:22:37 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25024	   2200	1063032	1090256	 10a2d0	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:23:12 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25020	   2200	1063032	1090252	 10a2cc	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:23:51 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:37:3: warning: implicit declaration of function 'xil_print'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+   xil_print("%0x", imageData[i]);
+   ^~~~~~~~~
+   xil_printf
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ImgaeInversion.o: In function `main':
+C:\Users\kartg\Desktop\Github\Deep-Learning-IC\hw6\project_hw6\project_hw6.sdk\ImageInversion\Debug/../src/ImgaeInversion.c:37: undefined reference to `xil_print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ImageInversion.elf] Error 1
+15:24:07 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27312	   2208	1063032	1092552	 10abc8	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:30:32 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:35:01 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:43:30 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25104	   2200	1063032	1090336	 10a320	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:44:25 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25104	   2200	1063032	1090336	 10a320	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:44:40 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25104	   2200	1063032	1090336	 10a320	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:45:14 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25104	   2200	1063032	1090336	 10a320	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:45:15 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25104	   2200	1063032	1090336	 10a320	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:45:17 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25104	   2200	1063032	1090336	 10a320	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:45:49 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:41:8: error: expected expression before ')' token
+  while(){
+        ^
+../src/ImgaeInversion.c:42:5: error: too few arguments to function 'XUartPs_Send'
+   = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+     ^~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:462:5: note: declared here
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:46:26 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:41:8: error: 'transmittedBytes' undeclared (first use in this function)
+  while(transmittedBytes < FILESIZE){
+        ^~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:41:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/ImgaeInversion.c:42:35: error: expected expression before 'XUartPs'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                                   ^~~~~~~
+../src/ImgaeInversion.c:42:22: error: too few arguments to function 'XUartPs_Send'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                      ^~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:462:5: note: declared here
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:47:02 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:16:6: error: redefinition of 'transmittedBytes'
+  u32 transmittedBytes = 0;
+      ^~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:15:6: note: previous definition of 'transmittedBytes' was here
+  u32 transmittedBytes = 0;
+      ^~~~~~~~~~~~~~~~
+../src/ImgaeInversion.c:44:35: error: expected expression before 'XUartPs'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                                   ^~~~~~~
+../src/ImgaeInversion.c:44:22: error: too few arguments to function 'XUartPs_Send'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                      ^~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:462:5: note: declared here
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/ImgaeInversion.c:45:3: error: 'total' undeclared (first use in this function)
+   total
+   ^~~~~
+../src/ImgaeInversion.c:45:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/ImgaeInversion.c:46:2: error: expected ';' before '}' token
+  }
+  ^
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:47:04 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:44:35: error: expected expression before 'XUartPs'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                                   ^~~~~~~
+../src/ImgaeInversion.c:44:22: error: too few arguments to function 'XUartPs_Send'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                      ^~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:462:5: note: declared here
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/ImgaeInversion.c:45:3: error: 'total' undeclared (first use in this function)
+   total
+   ^~~~~
+../src/ImgaeInversion.c:45:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/ImgaeInversion.c:46:2: error: expected ';' before '}' token
+  }
+  ^
+../src/ImgaeInversion.c:16:6: warning: unused variable 'totaltransmittedBytes' [-Wunused-variable]
+  u32 totaltransmittedBytes = 0;
+      ^~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:47:20 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:44:35: error: expected expression before 'XUartPs'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                                   ^~~~~~~
+../src/ImgaeInversion.c:44:22: error: too few arguments to function 'XUartPs_Send'
+   transmittedBytes = XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr, u32 NumBytes);
+                      ^~~~~~~~~~~~
+In file included from ../src/ImgaeInversion.c:3:0:
+../../ImageInversion_bsp/ps7_cortexa9_0/include/xuartps.h:462:5: note: declared here
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:47:43 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:44:77: error: expected expression before 'u32'
+   transmittedBytes = XUartPs_Send(&myUart, (u8*)&imageData[totalRecvBytes], u32 NumBytes);
+                                                                             ^~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:48:01 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:44:84: error: expected expression before 'u32'
+   transmittedBytes = XUartPs_Send(&myUart, (u8*)&imageData[totaltransmittedBytes], u32 NumBytes);
+                                                                                    ^~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:48:06 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	   2200	1063032	1090424	 10a378	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:48:28 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	   2200	1063032	1090424	 10a378	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:54:19 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:58:19 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:46:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(2000)
+   ^~~~~~
+../src/ImgaeInversion.c:47:2: error: expected ';' before '}' token
+  }
+  ^
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+15:58:21 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:46:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(2000);
+   ^~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:58:39 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+15:58:41 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+16:00:31 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:04:09 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:04:32 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:02:28 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+18:02:57 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+18:02:59 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+18:03:58 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:19:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform()
+  ^~~~~~~~~~~~~
+../src/ImgaeInversion.c:20:2: error: expected ';' before 'imageData'
+  imageData = malloc(sizeof(u8) * IMAGESIZE + HEADERSIZE);
+  ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+18:04:19 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c:6:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/ImgaeInversion.o] Error 1
+18:06:59 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+../src/ImgaeInversion.c: In function 'main':
+../src/ImgaeInversion.c:19:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform();
+  ^~~~~~~~~~~~~
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ImgaeInversion.o: In function `main':
+C:\Users\kartg\Desktop\Github\Deep-Learning-IC\hw6\project_hw6\project_hw6.sdk\ImageInversion\Debug/../src/ImgaeInversion.c:19: undefined reference to `init_platform'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: ImageInversion.elf] Error 1
+18:07:05 **** Auto Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ImgaeInversion.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ImgaeInversion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ImageInversion_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ImgaeInversion.d" -MT"src/ImgaeInversion.o" -o "src/ImgaeInversion.o" "../src/ImgaeInversion.c"
+Finished building: ../src/ImgaeInversion.c
+ 
+Building target: ImageInversion.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ImageInversion_bsp/ps7_cortexa9_0/lib -o "ImageInversion.elf"  ./src/ImgaeInversion.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ImageInversion.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ImageInversion.elf  |tee "ImageInversion.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25348	   2200	1063032	1090580	 10a414	ImageInversion.elf
+Finished building: ImageInversion.elf.size
+ 
+19:36:35 **** Incremental Build of configuration Debug for project ImageInversion ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

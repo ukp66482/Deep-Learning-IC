@@ -1,0 +1,35 @@
+#include <stdlib.h>
+#include "xil_types.h" //u8 type
+#include "xuartps.h" //UART device
+#include "xparameters.h" //device ID
+
+#define BAUDRATE 115200
+#define IMAGESIZE 512*512
+#define HEADERSIZE 1080
+#define FILESIZE IMAGESIZE + HEADERSIZE
+
+int main(){
+	u8 *imageData;
+	u32 recvBytes = 0;
+	u32 totalRecvBytes = 0;
+	s32 status;
+	imageData = malloc(sizeof(u8) * IMAGESIZE + HEADERSIZE);
+
+	XUartPs_Config *myUartConfig;
+	XUartPs myUart;
+	myUartConfig = XUartPs_LookupConfig(XPAR_PS7_UART_0_DEVICE_ID);
+	status = XUartPs_CfgInitialize(&myUart, myUartConfig, myUartConfig->BaseAddress);
+	if(status != XST_SUCCESS){
+		printf("UART Initialization FAIL!!");
+	}
+
+	status = XUartPs_SetBaudRate(&myUart, BAUDRATE);
+	if(status != XST_SUCCESS){
+			printf("Baud rate Initialization FAIL!!");
+	}
+
+	while(totalRecvBytes < FILESIZE){
+		recvBytes = XUartPs_Recv(&myUart, imageData[totalRecvBytes], FILESIZE);
+		totalRecvBytes += recvBytes;
+	}
+}
