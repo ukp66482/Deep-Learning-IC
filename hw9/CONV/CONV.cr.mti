@@ -1,0 +1,823 @@
+C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/fsa0m_a_generic_core_21.lib.v {1 {vlog -work work -novopt -stats=none C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/fsa0m_a_generic_core_21.lib.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module AN2
+-- Compiling module AN2B1
+-- Compiling module AN2B1P
+-- Compiling module AN2B1S
+-- Compiling module AN2B1T
+-- Compiling module AN2P
+-- Compiling module AN2S
+-- Compiling module AN2T
+-- Compiling module AN3
+-- Compiling module AN3B1
+-- Compiling module AN3B1P
+-- Compiling module AN3B1S
+-- Compiling module AN3B1T
+-- Compiling module AN3B2
+-- Compiling module AN3B2P
+-- Compiling module AN3B2S
+-- Compiling module AN3B2T
+-- Compiling module AN3P
+-- Compiling module AN3S
+-- Compiling module AN3T
+-- Compiling module AN4
+-- Compiling module AN4B1
+-- Compiling module AN4B1P
+-- Compiling module AN4B1S
+-- Compiling module AN4B1T
+-- Compiling module AN4P
+-- Compiling module AN4S
+-- Compiling module AN4T
+-- Compiling module ANTENNA
+-- Compiling module AO112
+-- Compiling module AO112P
+-- Compiling module AO112S
+-- Compiling module AO112T
+-- Compiling module AO12
+-- Compiling module AO12P
+-- Compiling module AO12S
+-- Compiling module AO12T
+-- Compiling module AO13
+-- Compiling module AO13P
+-- Compiling module AO13S
+-- Compiling module AO13T
+-- Compiling module AO22
+-- Compiling module AO222
+-- Compiling module AO222P
+-- Compiling module AO222S
+-- Compiling module AO222T
+-- Compiling module AO22P
+-- Compiling module AO22S
+-- Compiling module AO22T
+-- Compiling module AOI112H
+-- Compiling module AOI112HP
+-- Compiling module AOI112HS
+-- Compiling module AOI112HT
+-- Compiling module AOI12H
+-- Compiling module AOI12HP
+-- Compiling module AOI12HS
+-- Compiling module AOI12HT
+-- Compiling module AOI13H
+-- Compiling module AOI13HP
+-- Compiling module AOI13HS
+-- Compiling module AOI13HT
+-- Compiling module AOI222H
+-- Compiling module AOI222HP
+-- Compiling module AOI222HS
+-- Compiling module AOI22H
+-- Compiling module AOI22HP
+-- Compiling module AOI22HT
+-- Compiling module AOI22S
+-- Compiling module BHD1
+-- Compiling module BUF1
+-- Compiling module BUF12CK
+-- Compiling module BUF1CK
+-- Compiling module BUF1S
+-- Compiling module BUF2
+-- Compiling module BUF2CK
+-- Compiling module BUF3
+-- Compiling module BUF3CK
+-- Compiling module BUF4
+-- Compiling module BUF4CK
+-- Compiling module BUF6
+-- Compiling module BUF6CK
+-- Compiling module BUF8
+-- Compiling module BUF8CK
+-- Compiling module BUFB1
+-- Compiling module BUFB2
+-- Compiling module BUFB3
+-- Compiling module BUFT1
+-- Compiling module BUFT2
+-- Compiling module BUFT3
+-- Compiling module BUFT4
+-- Compiling module CMPE4
+-- Compiling module CMPE4S
+-- Compiling module DBFRBN
+-- Compiling module DBFRSBN
+-- Compiling module DBHRBN
+-- Compiling module DBHRBS
+-- Compiling module DBZRBN
+-- Compiling module DBZRSBN
+-- Compiling module DELA
+-- Compiling module DELB
+-- Compiling module DELC
+-- Compiling module DFCLRBN
+-- Compiling module DFCRBN
+-- Compiling module DFFN
+-- Compiling module DFFP
+-- Compiling module DFFRBN
+-- Compiling module DFFRBP
+-- Compiling module DFFRBS
+-- Compiling module DFFRBT
+-- Compiling module DFFRSBN
+-- Compiling module DFFS
+-- Compiling module DFFSBN
+-- Compiling module DFTRBN
+-- Compiling module DFTRBS
+-- Compiling module DFZCLRBN
+-- Compiling module DFZCRBN
+-- Compiling module DFZN
+-- Compiling module DFZP
+-- Compiling module DFZRBN
+-- Compiling module DFZRBP
+-- Compiling module DFZRBS
+-- Compiling module DFZRBT
+-- Compiling module DFZRSBN
+-- Compiling module DFZS
+-- Compiling module DFZSBN
+-- Compiling module DFZTRBN
+-- Compiling module DFZTRBS
+-- Compiling module DLHN
+-- Compiling module DLHP
+-- Compiling module DLHRBN
+-- Compiling module DLHRBP
+-- Compiling module DLHRBS
+-- Compiling module DLHS
+-- Compiling module FA1
+-- Compiling module FA1P
+-- Compiling module FA1S
+-- Compiling module FA1T
+-- Compiling module FA2
+-- Compiling module FA2P
+-- Compiling module FA2S
+-- Compiling module FA3
+-- Compiling module FA3P
+-- Compiling module FA3S
+-- Compiling module FACS1
+-- Compiling module FACS1P
+-- Compiling module FACS1S
+-- Compiling module FACS2
+-- Compiling module FACS2P
+-- Compiling module FACS2S
+-- Compiling module GCKETF
+-- Compiling module GCKETN
+-- Compiling module GCKETP
+-- Compiling module GCKETT
+-- Compiling module HA1
+-- Compiling module HA1P
+-- Compiling module HA1S
+-- Compiling module HA1T
+-- Compiling module HA2
+-- Compiling module HA2P
+-- Compiling module HA2T
+-- Compiling module HA3
+-- Compiling module HA3P
+-- Compiling module HA3T
+-- Compiling module INV1
+-- Compiling module INV12
+-- Compiling module INV12CK
+-- Compiling module INV1CK
+-- Compiling module INV1S
+-- Compiling module INV2
+-- Compiling module INV2CK
+-- Compiling module INV3
+-- Compiling module INV3CK
+-- Compiling module INV4
+-- Compiling module INV4CK
+-- Compiling module INV6
+-- Compiling module INV6CK
+-- Compiling module INV8
+-- Compiling module INV8CK
+-- Compiling module INVT1
+-- Compiling module INVT2
+-- Compiling module INVT4
+-- Compiling module JKFN
+-- Compiling module JKFRBN
+-- Compiling module JKFRBP
+-- Compiling module JKZN
+-- Compiling module JKZRBN
+-- Compiling module JKZRBP
+-- Compiling module MAO222
+-- Compiling module MAO222P
+-- Compiling module MAO222S
+-- Compiling module MAO222T
+-- Compiling module MAOI1
+-- Compiling module MAOI1H
+-- Compiling module MAOI1HP
+-- Compiling module MAOI1HT
+-- Compiling module MAOI1S
+-- Compiling module MOAI1
+-- Compiling module MOAI1H
+-- Compiling module MOAI1HP
+-- Compiling module MOAI1HT
+-- Compiling module MOAI1S
+-- Compiling module MULBE
+-- Compiling module MULBEP
+-- Compiling module MULBET
+-- Compiling module MULPA
+-- Compiling module MULPAP
+-- Compiling module MULPAT
+-- Compiling module MUX2
+-- Compiling module MUX2F
+-- Compiling module MUX2P
+-- Compiling module MUX2S
+-- Compiling module MUX2T
+-- Compiling module MUX3
+-- Compiling module MUX3P
+-- Compiling module MUX3S
+-- Compiling module MUX3T
+-- Compiling module MUX4
+-- Compiling module MUX4P
+-- Compiling module MUX4S
+-- Compiling module MUX4T
+-- Compiling module MUXB2
+-- Compiling module MUXB2P
+-- Compiling module MUXB2S
+-- Compiling module MUXB2T
+-- Compiling module MUXB4
+-- Compiling module MUXB4P
+-- Compiling module MUXB4S
+-- Compiling module MUXB4T
+-- Compiling module MXL2H
+-- Compiling module MXL2HF
+-- Compiling module MXL2HP
+-- Compiling module MXL2HS
+-- Compiling module MXL2HT
+-- Compiling module MXL3
+-- Compiling module MXL3P
+-- Compiling module MXL3S
+-- Compiling module MXL3T
+-- Compiling module ND2
+-- Compiling module ND2F
+-- Compiling module ND2P
+-- Compiling module ND2S
+-- Compiling module ND2T
+-- Compiling module ND3
+-- Compiling module ND3HT
+-- Compiling module ND3P
+-- Compiling module ND3S
+-- Compiling module ND4
+-- Compiling module ND4P
+-- Compiling module ND4S
+-- Compiling module ND4T
+-- Compiling module NR2
+-- Compiling module NR2F
+-- Compiling module NR2P
+-- Compiling module NR2T
+-- Compiling module NR3
+-- Compiling module NR3H
+-- Compiling module NR3HP
+-- Compiling module NR3HT
+-- Compiling module NR4
+-- Compiling module NR4P
+-- Compiling module NR4S
+-- Compiling module NR4T
+-- Compiling module OA112
+-- Compiling module OA112P
+-- Compiling module OA112S
+-- Compiling module OA112T
+-- Compiling module OA12
+-- Compiling module OA12P
+-- Compiling module OA12S
+-- Compiling module OA12T
+-- Compiling module OA13
+-- Compiling module OA13P
+-- Compiling module OA13S
+-- Compiling module OA13T
+-- Compiling module OA22
+-- Compiling module OA222
+-- Compiling module OA222P
+-- Compiling module OA222S
+-- Compiling module OA222T
+-- Compiling module OA22P
+-- Compiling module OA22S
+-- Compiling module OA22T
+-- Compiling module OAI112H
+-- Compiling module OAI112HP
+-- Compiling module OAI112HS
+-- Compiling module OAI112HT
+-- Compiling module OAI12H
+-- Compiling module OAI12HP
+-- Compiling module OAI12HS
+-- Compiling module OAI12HT
+-- Compiling module OAI13H
+-- Compiling module OAI13HP
+-- Compiling module OAI13HS
+-- Compiling module OAI13HT
+-- Compiling module OAI222H
+-- Compiling module OAI222HP
+-- Compiling module OAI222HT
+-- Compiling module OAI222S
+-- Compiling module OAI22H
+-- Compiling module OAI22HP
+-- Compiling module OAI22HT
+-- Compiling module OAI22S
+-- Compiling module OR2
+-- Compiling module OR2B1
+-- Compiling module OR2B1P
+-- Compiling module OR2B1S
+-- Compiling module OR2B1T
+-- Compiling module OR2P
+-- Compiling module OR2S
+-- Compiling module OR2T
+-- Compiling module OR3
+-- Compiling module OR3B1
+-- Compiling module OR3B1P
+-- Compiling module OR3B1S
+-- Compiling module OR3B1T
+-- Compiling module OR3B2
+-- Compiling module OR3B2P
+-- Compiling module OR3B2S
+-- Compiling module OR3B2T
+-- Compiling module OR3P
+-- Compiling module OR3S
+-- Compiling module OR3T
+-- Compiling module PDI
+-- Compiling module PDIX
+-- Compiling module PUI
+-- Compiling module QDBHN
+-- Compiling module QDBHS
+-- Compiling module QDFFN
+-- Compiling module QDFFP
+-- Compiling module QDFFRBN
+-- Compiling module QDFFRBP
+-- Compiling module QDFFRBS
+-- Compiling module QDFFRBT
+-- Compiling module QDFFRSBN
+-- Compiling module QDFFS
+-- Compiling module QDFZN
+-- Compiling module QDFZP
+-- Compiling module QDFZRBN
+-- Compiling module QDFZRBP
+-- Compiling module QDFZRBS
+-- Compiling module QDFZRBT
+-- Compiling module QDFZRSBN
+-- Compiling module QDFZS
+-- Compiling module QDLHN
+-- Compiling module QDLHP
+-- Compiling module QDLHRBN
+-- Compiling module QDLHRBP
+-- Compiling module QDLHRBS
+-- Compiling module QDLHS
+-- Compiling module QDLHSN
+-- Compiling module RAM2
+-- Compiling module RAM2S
+-- Compiling module RAM3
+-- Compiling module RAM3S
+-- Compiling module RAM5
+-- Compiling module RAM5S
+-- Compiling module TIE0
+-- Compiling module TIE1
+-- Compiling module XNR2H
+-- Compiling module XNR2HP
+-- Compiling module XNR2HS
+-- Compiling module XNR2HT
+-- Compiling module XNR3
+-- Compiling module XNR3P
+-- Compiling module XNR3S
+-- Compiling module XNR3T
+-- Compiling module XNR4
+-- Compiling module XNR4P
+-- Compiling module XNR4S
+-- Compiling module XNR4T
+-- Compiling module XOR2H
+-- Compiling module XOR2HP
+-- Compiling module XOR2HS
+-- Compiling module XOR2HT
+-- Compiling module XOR3
+-- Compiling module XOR3P
+-- Compiling module XOR3S
+-- Compiling module XOR3T
+-- Compiling module XOR4
+-- Compiling module XOR4P
+-- Compiling module XOR4S
+-- Compiling module XOR4T
+-- Compiling UDP dffrsb_udp
+-- Compiling module dffsb_pri
+-- Compiling UDP dlhrb_udp
+-- Compiling UDP dlhrsb_udp
+-- Compiling UDP dlhsb_udp
+-- Compiling UDP jkffrsb_udp
+-- Compiling UDP mux2_udp
+-- Compiling UDP mux3_udp
+-- Compiling UDP mux4_udp
+-- Compiling module pulldown_IO
+-- Compiling module pullup2_down_IO
+-- Compiling module pullup_IO
+-- Compiling module pullup_down_IO
+-- Compiling module pullup_down_IO_IEO
+-- Compiling module pullup_down_IO_PSCN
+-- Compiling module pullup_down_ene_IO
+-- Compiling module pullup_down_keep_IO
+-- Compiling module pullup_down_keep_IO_03us
+-- Compiling module pullup_down_keep_IO_IE
+-- Compiling module pullup_down_keep_IO_IG
+-- Compiling module pullup_inv_IO
+-- Compiling UDP tffrb_udp
+-- Compiling UDP tffrsb_udp
+-- Compiling UDP tffsb_udp
+
+Top level modules:
+	AN2
+	AN2B1
+	AN2B1P
+	AN2B1S
+	AN2B1T
+	AN2P
+	AN2S
+	AN2T
+	AN3
+	AN3B1
+	AN3B1P
+	AN3B1S
+	AN3B1T
+	AN3B2
+	AN3B2P
+	AN3B2S
+	AN3B2T
+	AN3P
+	AN3S
+	AN3T
+	AN4
+	AN4B1
+	AN4B1P
+	AN4B1S
+	AN4B1T
+	AN4P
+	AN4S
+	AN4T
+	ANTENNA
+	AO112
+	AO112P
+	AO112S
+	AO112T
+	AO12
+	AO12P
+	AO12S
+	AO12T
+	AO13
+	AO13P
+	AO13S
+	AO13T
+	AO22
+	AO222
+	AO222P
+	AO222S
+	AO222T
+	AO22P
+	AO22S
+	AO22T
+	AOI112H
+	AOI112HP
+	AOI112HS
+	AOI112HT
+	AOI12H
+	AOI12HP
+	AOI12HS
+	AOI12HT
+	AOI13H
+	AOI13HP
+	AOI13HS
+	AOI13HT
+	AOI222H
+	AOI222HP
+	AOI222HS
+	AOI22H
+	AOI22HP
+	AOI22HT
+	AOI22S
+	BHD1
+	BUF1
+	BUF12CK
+	BUF1CK
+	BUF1S
+	BUF2
+	BUF2CK
+	BUF3
+	BUF3CK
+	BUF4
+	BUF4CK
+	BUF6
+	BUF6CK
+	BUF8
+	BUF8CK
+	BUFB1
+	BUFB2
+	BUFB3
+	BUFT1
+	BUFT2
+	BUFT3
+	BUFT4
+	CMPE4
+	CMPE4S
+	DBFRBN
+	DBFRSBN
+	DBHRBN
+	DBHRBS
+	DBZRBN
+	DBZRSBN
+	DELA
+	DELB
+	DELC
+	DFCLRBN
+	DFCRBN
+	DFFN
+	DFFP
+	DFFRBN
+	DFFRBP
+	DFFRBS
+	DFFRBT
+	DFFRSBN
+	DFFS
+	DFFSBN
+	DFTRBN
+	DFTRBS
+	DFZCLRBN
+	DFZCRBN
+	DFZN
+	DFZP
+	DFZRBN
+	DFZRBP
+	DFZRBS
+	DFZRBT
+	DFZRSBN
+	DFZS
+	DFZSBN
+	DFZTRBN
+	DFZTRBS
+	DLHN
+	DLHP
+	DLHRBN
+	DLHRBP
+	DLHRBS
+	DLHS
+	FA1
+	FA1P
+	FA1S
+	FA1T
+	FA2
+	FA2P
+	FA2S
+	FA3
+	FA3P
+	FA3S
+	FACS1
+	FACS1P
+	FACS1S
+	FACS2
+	FACS2P
+	FACS2S
+	GCKETF
+	GCKETN
+	GCKETP
+	GCKETT
+	HA1
+	HA1P
+	HA1S
+	HA1T
+	HA2
+	HA2P
+	HA2T
+	HA3
+	HA3P
+	HA3T
+	INV1
+	INV12
+	INV12CK
+	INV1CK
+	INV1S
+	INV2
+	INV2CK
+	INV3
+	INV3CK
+	INV4
+	INV4CK
+	INV6
+	INV6CK
+	INV8
+	INV8CK
+	INVT1
+	INVT2
+	INVT4
+	JKFN
+	JKFRBN
+	JKFRBP
+	JKZN
+	JKZRBN
+	JKZRBP
+	MAO222
+	MAO222P
+	MAO222S
+	MAO222T
+	MAOI1
+	MAOI1H
+	MAOI1HP
+	MAOI1HT
+	MAOI1S
+	MOAI1
+	MOAI1H
+	MOAI1HP
+	MOAI1HT
+	MOAI1S
+	MULBE
+	MULBEP
+	MULBET
+	MULPA
+	MULPAP
+	MULPAT
+	MUX2
+	MUX2F
+	MUX2P
+	MUX2S
+	MUX2T
+	MUX3
+	MUX3P
+	MUX3S
+	MUX3T
+	MUX4
+	MUX4P
+	MUX4S
+	MUX4T
+	MUXB2
+	MUXB2P
+	MUXB2S
+	MUXB2T
+	MUXB4
+	MUXB4P
+	MUXB4S
+	MUXB4T
+	MXL2H
+	MXL2HF
+	MXL2HP
+	MXL2HS
+	MXL2HT
+	MXL3
+	MXL3P
+	MXL3S
+	MXL3T
+	ND2
+	ND2F
+	ND2P
+	ND2S
+	ND2T
+	ND3
+	ND3HT
+	ND3P
+	ND3S
+	ND4
+	ND4P
+	ND4S
+	ND4T
+	NR2
+	NR2F
+	NR2P
+	NR2T
+	NR3
+	NR3H
+	NR3HP
+	NR3HT
+	NR4
+	NR4P
+	NR4S
+	NR4T
+	OA112
+	OA112P
+	OA112S
+	OA112T
+	OA12
+	OA12P
+	OA12S
+	OA12T
+	OA13
+	OA13P
+	OA13S
+	OA13T
+	OA22
+	OA222
+	OA222P
+	OA222S
+	OA222T
+	OA22P
+	OA22S
+	OA22T
+	OAI112H
+	OAI112HP
+	OAI112HS
+	OAI112HT
+	OAI12H
+	OAI12HP
+	OAI12HS
+	OAI12HT
+	OAI13H
+	OAI13HP
+	OAI13HS
+	OAI13HT
+	OAI222H
+	OAI222HP
+	OAI222HT
+	OAI222S
+	OAI22H
+	OAI22HP
+	OAI22HT
+	OAI22S
+	OR2
+	OR2B1
+	OR2B1P
+	OR2B1S
+	OR2B1T
+	OR2P
+	OR2S
+	OR2T
+	OR3
+	OR3B1
+	OR3B1P
+	OR3B1S
+	OR3B1T
+	OR3B2
+	OR3B2P
+	OR3B2S
+	OR3B2T
+	OR3P
+	OR3S
+	OR3T
+	PDI
+	PDIX
+	PUI
+	QDBHN
+	QDBHS
+	QDFFN
+	QDFFP
+	QDFFRBN
+	QDFFRBP
+	QDFFRBS
+	QDFFRBT
+	QDFFRSBN
+	QDFFS
+	QDFZN
+	QDFZP
+	QDFZRBN
+	QDFZRBP
+	QDFZRBS
+	QDFZRBT
+	QDFZRSBN
+	QDFZS
+	QDLHN
+	QDLHP
+	QDLHRBN
+	QDLHRBP
+	QDLHRBS
+	QDLHS
+	QDLHSN
+	RAM2
+	RAM2S
+	RAM3
+	RAM3S
+	RAM5
+	RAM5S
+	TIE0
+	TIE1
+	XNR2H
+	XNR2HP
+	XNR2HS
+	XNR2HT
+	XNR3
+	XNR3P
+	XNR3S
+	XNR3T
+	XNR4
+	XNR4P
+	XNR4S
+	XNR4T
+	XOR2H
+	XOR2HP
+	XOR2HS
+	XOR2HT
+	XOR3
+	XOR3P
+	XOR3S
+	XOR3T
+	XOR4
+	XOR4P
+	XOR4S
+	XOR4T
+	dffsb_pri
+	pulldown_IO
+	pullup2_down_IO
+	pullup_IO
+	pullup_down_IO
+	pullup_down_IO_IEO
+	pullup_down_IO_PSCN
+	pullup_down_ene_IO
+	pullup_down_keep_IO
+	pullup_down_keep_IO_03us
+	pullup_down_keep_IO_IE
+	pullup_down_keep_IO_IG
+	pullup_inv_IO
+
+} {} {}} C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/CONV.v {2 {vlog -work work -novopt -stats=none C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/CONV.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module CONV
+** Warning: C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/CONV.v(288): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	CONV
+
+} {} {}} C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/testfixture.v {1 {vlog -work work -novopt -stats=none C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw9/CONV/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}
