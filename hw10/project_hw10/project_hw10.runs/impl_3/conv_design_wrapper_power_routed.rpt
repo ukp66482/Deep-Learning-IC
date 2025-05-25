@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Sun May 25 04:18:47 2025
+| Date             : Sun May 25 15:04:32 2025
 | Host             : ukp66482 running 64-bit major release  (build 9200)
 | Command          : report_power -file conv_design_wrapper_power_routed.rpt -pb conv_design_wrapper_power_summary_routed.pb -rpx conv_design_wrapper_power_routed.rpx
 | Design           : conv_design_wrapper
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 1.530        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.392        |
+| Dynamic (W)              | 1.393        |
 | Device Static (W)        | 0.138        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 67.4         |
@@ -54,7 +54,7 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.029 |        3 |       --- |             --- |
 | Slice Logic              |     0.044 |    18550 |       --- |             --- |
-|   LUT as Logic           |     0.037 |     6545 |     53200 |           12.30 |
+|   LUT as Logic           |     0.037 |     6548 |     53200 |           12.31 |
 |   CARRY4                 |     0.003 |      505 |     13300 |            3.80 |
 |   LUT as Distributed RAM |     0.002 |      792 |     17400 |            4.55 |
 |   Register               |     0.001 |     7186 |    106400 |            6.75 |
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.149 |       0.135 |      0.014 |
+| Vccint    |       1.000 |     0.149 |       0.136 |      0.014 |
 | Vccaux    |       1.800 |     0.015 |       0.000 |      0.015 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -151,8 +151,8 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| conv_design_wrapper      |     1.392 |
-|   conv_design_i          |     1.392 |
+| conv_design_wrapper      |     1.393 |
+|   conv_design_i          |     1.393 |
 |     CONV_0               |     0.048 |
 |       inst               |     0.005 |
 |     axi_bram_ctrl_0      |     0.003 |
@@ -163,8 +163,8 @@ Table of Contents
 |       U0                 |     0.002 |
 |     axi_bram_ctrl_1_bram |     0.003 |
 |       U0                 |     0.003 |
-|     axi_cdma_0           |     0.005 |
-|       U0                 |     0.005 |
+|     axi_cdma_0           |     0.004 |
+|       U0                 |     0.004 |
 |     axi_smc              |     0.049 |
 |       inst               |     0.049 |
 |     processing_system7_0 |     1.257 |

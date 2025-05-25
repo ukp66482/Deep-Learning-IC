@@ -12,43 +12,43 @@ source conv_design_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 304.266 ; gain = 55.523
-Command: synth_design -top conv_design_wrapper -part xc7z020clg400-1
+add_files: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 303.879 ; gain = 54.738
+Command: synth_design -top conv_design_wrapper -part xc7z020clg400-1 -fanout_limit 400 -fsm_extraction one_hot -keep_equivalent_registers -resource_sharing off -no_lc -shreg_min_size 5
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 28348 
+INFO: Helper process launched with PID 12220 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 424.113 ; gain = 107.477
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 424.109 ; gain = 107.395
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'conv_design_wrapper' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/hdl/conv_design_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'conv_design' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:13]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_CONV_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_CONV_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_CONV_0_0' (1#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_CONV_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_CONV_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_CONV_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_CONV_0_0' (1#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_CONV_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'CONV_0' of module 'conv_design_CONV_0_0' requires 11 connections, but only 10 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:318]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_0_0' (2#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_0_bram_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_0_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_0_bram_0' (3#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_0_bram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_0_0' (2#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_0_bram_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_0_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_0_bram_0' (3#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_0_bram_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_bram_ctrl_0_bram' of module 'conv_design_axi_bram_ctrl_0_bram_0' requires 16 connections, but only 14 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:370]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_0_1' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_0_1' (4#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_1_bram_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_1_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_1_bram_0' (5#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_bram_ctrl_1_bram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_0_1' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_0_1' (4#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_bram_ctrl_1_bram_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_1_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_bram_ctrl_1_bram_0' (5#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_bram_ctrl_1_bram_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_bram_ctrl_1_bram' of module 'conv_design_axi_bram_ctrl_1_bram_0' requires 16 connections, but only 13 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:426]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_cdma_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_cdma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_cdma_0_0' (6#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_cdma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_cdma_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_cdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_cdma_0_0' (6#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_cdma_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_cdma_0' of module 'conv_design_axi_cdma_0_0' requires 50 connections, but only 48 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:440]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_gpio_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_gpio_0_0' (7#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_gpio_1_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_gpio_1_0' (8#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_smc_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_smc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_smc_0' (9#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_gpio_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_gpio_0_0' (7#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_gpio_1_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_gpio_1_0' (8#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_axi_smc_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_axi_smc_0' (9#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_axi_smc_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_smc' of module 'conv_design_axi_smc_0' requires 134 connections, but only 130 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:531]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_processing_system7_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_processing_system7_0_0' (10#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_processing_system7_0_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_processing_system7_0_0' (10#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'conv_design_processing_system7_0_0' requires 110 connections, but only 102 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:662]
 INFO: [Synth 8-6157] synthesizing module 'conv_design_ps7_0_axi_periph_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:876]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1YNS5AS' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:1543]
@@ -58,15 +58,15 @@ INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_R1B51M' (12#1) [
 INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_7C0G4P' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:1800]
 INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_7C0G4P' (13#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:1800]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_56I7D0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:1932]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_auto_pc_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_auto_pc_0' (14#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_auto_pc_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_auto_pc_0' (14#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_56I7D0' (15#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:1932]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_xbar_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_xbar_0' (16#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_xbar_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_xbar_0' (16#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_xbar_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'xbar' of module 'conv_design_xbar_0' requires 40 connections, but only 38 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:1502]
 INFO: [Synth 8-6155] done synthesizing module 'conv_design_ps7_0_axi_periph_0' (17#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:876]
-INFO: [Synth 8-6157] synthesizing module 'conv_design_rst_ps7_0_100M_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'conv_design_rst_ps7_0_100M_0' (18#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-29712-ukp66482/realtime/conv_design_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'conv_design_rst_ps7_0_100M_0' [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'conv_design_rst_ps7_0_100M_0' (18#1) [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/.Xil/Vivado-21732-ukp66482/realtime/conv_design_rst_ps7_0_100M_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'conv_design_rst_ps7_0_100M_0' requires 10 connections, but only 7 given [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/synth/conv_design.v:864]
 INFO: [Synth 8-6157] synthesizing module 'conv_design_xlconstant_0_0' [c:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/ip/conv_design_xlconstant_0_0/synth/conv_design_xlconstant_0_0.v:57]
 INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [c:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.srcs/sources_1/bd/conv_design/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
@@ -99,7 +99,7 @@ WARNING: [Synth 8-3331] design conv_design_ps7_0_axi_periph_0 has unconnected po
 WARNING: [Synth 8-3331] design conv_design_ps7_0_axi_periph_0 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design conv_design_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 481.297 ; gain = 164.660
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 481.535 ; gain = 164.820
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -112,10 +112,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 481.297 ; gain = 164.660
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 481.535 ; gain = 164.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 481.297 ; gain = 164.660
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 481.535 ; gain = 164.820
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -152,23 +152,23 @@ Parsing XDC File [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw
 Finished Parsing XDC File [C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 801.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.641 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.355 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 802.422 ; gain = 0.453
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.809 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.100 . Memory (MB): peak = 802.809 ; gain = 0.168
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'conv_design_i/axi_bram_ctrl_0_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'conv_design_i/axi_bram_ctrl_1_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 803.797 ; gain = 487.160
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 804.375 ; gain = 487.660
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 803.797 ; gain = 487.160
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 804.375 ; gain = 487.660
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -450,10 +450,10 @@ Applied set_property DONT_TOUCH = true for conv_design_i/axi_gpio_1. (constraint
 Applied set_property DONT_TOUCH = true for conv_design_i/xlconstant_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for conv_design_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 803.797 ; gain = 487.160
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 804.375 ; gain = 487.660
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 803.797 ; gain = 487.160
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 804.375 ; gain = 487.660
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -497,7 +497,7 @@ WARNING: [Synth 8-3331] design conv_design_ps7_0_axi_periph_0 has unconnected po
 WARNING: [Synth 8-3331] design conv_design_ps7_0_axi_periph_0 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design conv_design_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 803.797 ; gain = 487.160
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 804.375 ; gain = 487.660
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -513,13 +513,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'conv_design_i/axi_bram_ct
 INFO: [Synth 8-5578] Moved timing constraint from pin 'conv_design_i/axi_bram_ctrl_1/bram_clk_a' to pin 'conv_design_i/axi_bram_ctrl_1/bbstub_bram_clk_a/O'
 INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 819.645 ; gain = 503.008
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 819.992 ; gain = 503.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 819.941 ; gain = 503.305
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 820.289 ; gain = 503.574
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -531,7 +531,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -555,7 +555,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -568,7 +568,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -580,25 +580,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -653,25 +653,25 @@ Report Instance Areas:
 |5     |    xlconstant_0     |conv_design_xlconstant_0_0     |     0|
 +------+---------------------+-------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 830.500 ; gain = 191.363
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 830.500 ; gain = 513.863
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 830.852 ; gain = 191.297
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 830.852 ; gain = 514.137
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 844.469 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 843.117 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 60 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 849.383 ; gain = 545.117
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 849.383 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 847.473 ; gain = 543.594
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 847.473 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/kartg/Desktop/Github/Deep-Learning-IC/hw10/project_hw10/project_hw10.runs/synth_3/conv_design_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file conv_design_wrapper_utilization_synth.rpt -pb conv_design_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun May 25 04:15:42 2025...
+INFO: [Common 17-206] Exiting Vivado at Sun May 25 14:57:45 2025...
