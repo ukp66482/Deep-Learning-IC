@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May 31 13:44:59 2025
+# Process ID: 16764
+# Current directory: C:/Users/kartg/Desktop/Github/Deep-Learning-IC/YOLO_on_pynq-z2/DPU_sys/DPU_sys.runs/synth_1
+# Command line: vivado.exe -log DPU_sys_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DPU_sys_wrapper.tcl
+# Log file: C:/Users/kartg/Desktop/Github/Deep-Learning-IC/YOLO_on_pynq-z2/DPU_sys/DPU_sys.runs/synth_1/DPU_sys_wrapper.vds
+# Journal file: C:/Users/kartg/Desktop/Github/Deep-Learning-IC/YOLO_on_pynq-z2/DPU_sys/DPU_sys.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DPU_sys_wrapper.tcl -notrace
